@@ -1,1 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+.portfolio-container {
+    padding: 15px;
+    background-color: #f0ffff;
+    display: flex;
+    flex-direction: row;
+}
+
+.profile {
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-image {
+    display: flex;
+    flex-direction: row;
+}
+
+.image {
+    flex-basis: 50%;
+    overflow: hidden;
+    padding: 10px;
+}
+
+img {
+    width: 180px;
+    border-radius: 20px;
+}
+
+.name {
+    flex-basis: 50%;
+    padding: 10px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.languages {
+    display: flex;
+    padding: 10px 0 10px 0;
+    justify-content: space-between;
+}
+
+.lang-container {
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+}
+
+.react i {
+    color: #0ac5c5;
+}
+
+.css i {
+    color: #0000ff;
+}
+
+.javascript i {
+    color: #bebe08;
+}
+
+.nodejs i {
+    color: green;
+}
+
+.mongodb i {
+    color: green;
+}
+
+.c-cplus i {
+    color: #0808c5;
+}
+
+.python i {
+    color: #3030ce
+}
+
+.batch i {
+    color: #050550
+}
+
+.aws i {
+    color: #4c6e06
+}
+
+.hadoop i {
+    color: #ebeb0d
+}
+
+.aboutme {
+    flex-basis: 60%;
+}
+
+h2 {
+    padding: 10px;
+}
+
+p {
+    padding: 10px;
+}
+
+h2::after {
+    content: "";
+    display: block;
+    width: 110px;
+    padding-top: 3px;
+    border-bottom: 2px solid #007bff;
+}
